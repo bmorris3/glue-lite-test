@@ -1,7 +1,30 @@
-name: xeus-kernel
+name: default-environment
 channels:
-  - https://repo.prefix.dev/emscripten-forge-dev
-  - https://repo.prefix.dev/conda-forge
+  - https://prefix.dev/emscripten-forge-4x
+  - https://prefix.dev/conda-forge
 dependencies:
+  # A Jupyter kernel for Python
   - xeus-python
-  - ipycanvas
+  - astropy-base
+  - requests
+  - keyring
+  - pandas
+  - matplotlib
+  - fast-histogram
+  - glue-core
+- echo
+  - pip:
+    - glue-jupyter @ git+https://github.com/bmorris3/glue-jupyter@defer-skimage-import # only imports skimage in contour functions
+    - ipyvolume
+    - ipywebrtc
+    - pythreejs
+    - ipydatawidgets
+    - ipython_genutils
+    - ipyvuetify
+    - ipyvue
+    - bqplot_gl
+    - bqplot_image_gl
+    - bqplot_linlog
+    - ipywidgets>=7.7
+    - ipyvuetify>=1.6.10
+    - ipyvue>=1.9.0
