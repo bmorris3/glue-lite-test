@@ -31,3 +31,4 @@ dependencies:
     - ipyvue>=1.9.0
     - traittypes
     - sidecar
+    - bqscales
