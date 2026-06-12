@@ -12,7 +12,7 @@ dependencies:
   - matplotlib
   - fast-histogram
   - glue-core
-- echo
+  - echo
   - pip:
     - glue-jupyter @ git+https://github.com/bmorris3/glue-jupyter@defer-skimage-import # only imports skimage in contour functions
     - ipyvolume
