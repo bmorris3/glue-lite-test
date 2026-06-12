@@ -22,9 +22,12 @@ dependencies:
     - ipython_genutils
     - ipyvuetify
     - ipyvue
+    - bqplot
     - bqplot_gl
     - bqplot_image_gl
     - bqplot_linlog
     - ipywidgets>=7.7
     - ipyvuetify>=1.6.10
     - ipyvue>=1.9.0
+    - traittypes
+    - sidecar
